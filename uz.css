@@ -1,0 +1,55 @@
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:auto;
+	list-style: none;
+	width: 1174px;
+	margin: auto;
+}
+ li{
+ 	padding: 12px;
+ }
+
+ a{
+ 	text-decoration: none;
+ }
+
+
+ .container{
+ 	width: 1174px;
+ 	margin: auto;
+ 	height: 100vh;
+
+ }
+
+ .parent{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 100vh;
+ }
+
+.child{
+	width: calc(100% / 2);
+	padding: 12px;
+}
+
+.child:first-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+li:first-child {
+	margin-right: auto;
+}
+
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
